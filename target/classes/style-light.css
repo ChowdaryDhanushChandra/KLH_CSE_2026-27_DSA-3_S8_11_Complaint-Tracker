@@ -1,0 +1,6 @@
+.root{-fx-base:#E2E8F0;-fx-background:#F8FAFC;}
+.rightpane{-fx-background-color:#F8FAFC;}
+.card,.stat{-fx-background-color:white;}
+.side{-fx-background-color:#E2E8F0;}
+.nav:hover{-fx-background-color:#CBD5E1;}
+.h1,.big,.brand2{-fx-text-fill:#0369A1;}

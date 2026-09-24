@@ -1,0 +1,16 @@
+U	admin	4f75eaacb27dbfdcdc61ab81df9af14e28e80778ee893071f91036b9775298ae	admin
+U	customer	9faf1fb38fa34398e9f6975a13608a76678b076efa367b509b0c43a483b8a039	customer
+C	524314591	0	Phone arrived with a cracked screen	Reported by residents, please check soon.	customer	3	1	1	-1	false	48	6	0	BlueWing
+C	779009129	0	Glass bottle broken inside the box	Reported by residents, please check soon.	customer	1	4	6	-1	false	49	58	0	GreenMile
+C	252673061	1	Ordered a blue shirt, received a red one	Reported by residents, please check soon.	customer	0	2	5	-1	false	34	8	0	GreenMile
+C	455128691	1	Received size M instead of L	Reported by residents, please check soon.	customer	3	5	4	-1	false	94	97	0	QuickPost
+C	273430961	2	Package shows delivered but never arrived	Reported by residents, please check soon.	customer	0	3	3	-1	false	66	15	0	GreenMile
+C	732162257	2	Parcel lost in transit	Reported by residents, please check soon.	customer	1	1	2	-1	false	22	33	0	SwiftShip
+C	638758291	3	Order is 7 days late	Reported by residents, please check soon.	customer	3	4	1	-1	false	90	93	0	BlueWing
+C	539076053	3	Tracking has not moved for 5 days	Reported by residents, please check soon.	customer	1	2	6	-1	false	7	6	0	SwiftShip
+C	455846063	4	Blender stopped working after 2 days	Reported by residents, please check soon.	customer	0	5	5	-1	false	97	90	0	QuickPost
+C	606804889	4	Headphones have no sound on the left side	Reported by residents, please check soon.	customer	3	3	4	-1	false	38	66	0	SwiftShip
+C	502496483	5	Refund not received after return	Reported by residents, please check soon.	customer	0	1	3	-1	false	94	92	0	BlueWing
+C	696343237	5	Charged twice for one order	Reported by residents, please check soon.	customer	1	4	2	-1	false	8	54	0	SwiftShip
+C	408475069	0	पार्सल टूटा हुआ मिला	डिब्बा खोला तो सामान टूटा हुआ था	customer	0	2	2	-1	false	65	63	0	SwiftShip
+C	484852253	0	ప్యాకేజీ దెబ్బతిన్నది	వస్తువు పగిలిపోయి వచ్చింది	customer	0	2	5	-1	false	13	43	0	QuickPost

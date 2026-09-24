@@ -1,0 +1,18 @@
+.root{-fx-base:#1E293B;-fx-background:#0F172A;-fx-font-family:"Segoe UI";-fx-font-size:14px;}
+.hero{-fx-background-color:linear-gradient(to bottom right,#0369A1,#0F172A);}
+.brand{-fx-font-size:56px;-fx-font-weight:bold;-fx-text-fill:white;}
+.brand2{-fx-font-size:24px;-fx-font-weight:bold;-fx-text-fill:#38BDF8;}
+.tag{-fx-font-size:16px;-fx-text-fill:#E0F2FE;}
+.rightpane{-fx-background-color:#0F172A;}
+.card{-fx-background-color:#1E293B;-fx-background-radius:16;-fx-effect:dropshadow(gaussian,rgba(0,0,0,.4),24,0,0,6);}
+.h1{-fx-font-size:26px;-fx-font-weight:bold;-fx-text-fill:#38BDF8;}
+.err{-fx-text-fill:#F87171;}
+.primary{-fx-background-color:#0EA5E9;-fx-text-fill:white;-fx-font-weight:bold;-fx-background-radius:8;-fx-padding:10 18;}
+.primary:hover{-fx-background-color:#38BDF8;}
+.seg{-fx-pref-width:185;-fx-background-radius:8;}
+.seg:selected{-fx-background-color:#0EA5E9;-fx-text-fill:white;}
+.side{-fx-background-color:#111C33;}
+.nav{-fx-background-color:transparent;-fx-alignment:CENTER_LEFT;-fx-padding:10 14;}
+.nav:hover{-fx-background-color:#1E293B;}
+.stat{-fx-background-color:#1E293B;-fx-background-radius:12;-fx-padding:16 28;}
+.big{-fx-font-size:30px;-fx-font-weight:bold;-fx-text-fill:#38BDF8;}

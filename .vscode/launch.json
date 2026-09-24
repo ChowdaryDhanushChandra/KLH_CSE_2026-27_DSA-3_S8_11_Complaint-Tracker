@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Samadhan (Launcher)",
+            "request": "launch",
+            "mainClass": "com.samadhan.Launcher",
+            "projectName": "samadhan",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Launch Samadhan (App)",
+            "request": "launch",
+            "mainClass": "com.samadhan.ui.App",
+            "projectName": "samadhan",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        }
+    ]
+}
