@@ -204,29 +204,6 @@ Possible future improvements include:
 
 Update this list to reflect what remains unfinished in the current project.
 
-## Upload to GitHub
-
-1. Create a repository on GitHub.
-2. Open the project folder in Visual Studio Code.
-3. Open **Terminal → New Terminal**.
-4. If Git has not been initialized in the folder, run:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Complaint Tracker"
-```
-
-5. Add your GitHub repository URL and push the code. Replace the URL with your own repository URL:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-If a remote named `origin` already exists, check it using `git remote -v` rather than adding it again.
-
 ## Before Publishing
 
 - Remove passwords, API keys, private connection strings, and personal data.
