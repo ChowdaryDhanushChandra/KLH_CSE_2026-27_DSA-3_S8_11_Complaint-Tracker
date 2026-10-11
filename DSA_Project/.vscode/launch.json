@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run TextHack (App)",
+            "request": "launch",
+            "mainClass": "com.texthack.App",
+            "projectName": "TextHack",
+            "vmArgs": "--add-modules javafx.controls,javafx.fxml,javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "Run TextHack (Main)",
+            "request": "launch",
+            "mainClass": "com.texthack.Main",
+            "projectName": "TextHack",
+            "vmArgs": "--add-modules javafx.controls,javafx.fxml,javafx.graphics"
+        }
+    ]
+}

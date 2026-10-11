@@ -1,0 +1,37 @@
+===================================================================
+Starting Complaint Tracker (DSA-3 JavaFX Desktop Application)
+===================================================================
+Default Credentials:
+  - Administrator: admin / admin123  (or click 'Demo Login as Administrator')
+  - Citizen/Customer: customer / cust123 (or click 'Demo Login as Customer')
+===================================================================
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.texthack:TextHack >------------------------
+[INFO] Building TextHack – Advanced Algorithm Question Bank 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> javafx:0.0.8:run (default-cli) > process-classes @ TextHack >>>
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:21.0.2 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ TextHack ---
+[INFO] Copying 12 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.12.1:compile (default-compile) @ TextHack ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< javafx:0.0.8:run (default-cli) < process-classes @ TextHack <<<
+[INFO] 
+[INFO] 
+[INFO] --- javafx:0.0.8:run (default-cli) @ TextHack ---
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.glass.utils.NativeLibLoader in module javafx.graphics (file:/C:/Users/Dhanush/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-win.jar)
+WARNING: Use --enable-native-access=javafx.graphics to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by com.sun.marlin.OffHeapArray (file:/C:/Users/Dhanush/.m2/repository/org/openjfx/javafx-graphics/21.0.2/javafx-graphics-21.0.2-win.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sun.marlin.OffHeapArray
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+The system cannot find the batch label specified - end

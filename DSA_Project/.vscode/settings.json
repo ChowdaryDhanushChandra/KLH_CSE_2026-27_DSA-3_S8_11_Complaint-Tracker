@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "files.encoding": "utf8",
+    "maven.executable.path": ".\\mvnw.cmd",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "git.ignoreLimitWarning": true
+}

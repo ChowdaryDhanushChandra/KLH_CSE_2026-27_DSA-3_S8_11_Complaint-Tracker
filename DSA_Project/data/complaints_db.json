@@ -1,0 +1,59 @@
+# COMPLAINT TRACKER OFFLINE DATABASE
+# Generated: 2026-10-08T10:19:45.6908914
+[USERS]
+USR-01|admin|admin123|Chief Commissioner Sharma|admin@complaints.gov|9876543210|ADMINISTRATOR
+USR-02|customer|cust123|Priya Venkatesh|priya.v@gmail.com|9845012345|CUSTOMER
+USR-03|rajesh|raj123|Rajesh Kumar|rajesh.k@outlook.com|9812345678|CUSTOMER
+USR-04|staff|staff123|Officer Anil Verma|anil.verma@civic.org|9823456789|ADMINISTRATOR
+[DEPARTMENTS]
+DEP-WAT|Water Supply & Sewerage Board|WATER|12|18|14.50
+DEP-ELE|State Power & Electricity Board|ELECTRICITY|10|15|8.20
+DEP-ROA|Public Works & Road Infrastructure|ROADS|8|12|36.00
+DEP-SAN|Solid Waste & Sanitation Wing|SANITATION|15|25|6.00
+DEP-TRA|Metropolitan Transit Department|TRANSPORT|8|10|18.50
+DEP-BIL|Property Tax & Revenue Department|BILLING|6|8|24.00
+DEP-ITS|Digital Governance & IT Operations|IT_SERVICES|5|6|4.50
+DEP-GEN|Public Grievance General Cell|OTHER|10|12|12.00
+[COMPLAINTS]
+CMP-1001|Priya Venkatesh|9845012345|USR-02|Severe Main Water Pipe Burst in 4th Block|Drinking water main pipeline burst near park entrance. Huge water wastage and flooding onto main road.|WATER|CRITICAL|IN_PROGRESS|DEP-WAT|Water Supply & Sewerage Board|4th Block, Koramangala, Bengaluru|2026-10-08T05:19:45.6868925|2026-10-08T08:19:45.6868925||12|1|0||Suresh (Technician)
+CMP-1002|Rajesh Kumar|9812345678|USR-03|Transformer Sparking and Frequent Blackout|Distribution transformer on 2nd cross emitting sparks and smoke. High risk of electrical fire.|ELECTRICITY|CRITICAL|NEW|DEP-ELE|State Power & Electricity Board|2nd Cross, Indiranagar, Bengaluru|2026-10-08T08:19:45.6868925|2026-10-08T08:19:45.6868925||12|2|0||Unassigned
+CMP-1003|Ananya Hegde|9741234567|USR-02|Deep Pothole Hazard near Metro Pillar 142|A 2-foot wide dangerous pothole causing severe two-wheeler skidding during rainy evening peak traffic.|ROADS|HIGH|PENDING|DEP-ROA|Public Works & Road Infrastructure|Old Airport Road near Pillar 142|2026-10-07T14:19:45.6868925|2026-10-08T00:19:45.6868925||24|0|0||Ramesh Rao (JE)
+CMP-1004|Karthik Sundaram|9880123456|USR-03|Overflowing Garbage Bin Spilling on Pedestrian Walkway|Community garbage dumpster has not been cleared for 4 days. Strong foul stench and stray animal menace.|SANITATION|MEDIUM|RESOLVED|DEP-SAN|Solid Waste & Sanitation Wing|Opposite City Central Library, Malleshwaram|2026-10-05T10:19:45.6868925|2026-10-07T10:19:45.6868925|2026-10-07T22:19:45.6868925|48|0|5|Sanitation team arrived with compactor truck and sanitized the spot. Great work!|Kavita (Supervisor)
+CMP-1005|Sunil Deshmukh|9900112233|USR-02|Double Deduction in Water Supply Monthly Bill|Net banking auto-debit charged twice for consumer water account #W-88291 during September billing cycle.|BILLING|MEDIUM|IN_PROGRESS|DEP-BIL|Property Tax & Revenue Department|Consumer Account: W-88291, Jayanagar|2026-10-07T10:19:45.6868925|2026-10-08T04:19:45.6868925||48|0|0||Accounts Desk 2
+CMP-1006|Deepa Nambiar|9988776655|USR-03|Street Lights Not Working for Whole Stretch of 100ft Road|Over 15 street lights non-functional creating a pitch dark accident hazard zone for women commuters at night.|ELECTRICITY|HIGH|PENDING|DEP-ELE|State Power & Electricity Board|100 Feet Road, 7th Sector, HSR Layout|2026-10-07T16:19:45.6868925|2026-10-07T19:19:45.6868925||24|0|0||Lineman Team A
+CMP-1007|Manoj Tiwari|9123456780|USR-02|Broken Manhole Cover Threatening Vehicles and Pedestrians|Heavy iron manhole lid shattered. Open drainage chamber poses fatal hazard to school children.|ROADS|CRITICAL|ESCALATED|DEP-ROA|Public Works & Road Infrastructure|Beside St. Joseph School, Richmond Road|2026-10-06T22:19:45.6868925|2026-10-08T09:19:45.6868925||12|2|0||Chief Road Engineer
+CMP-1008|Vikram Rathore|9870011223|USR-03|Severe Main Water Pipe Burst in 4th Block Park|Water pipeline is broken and leaking heavily near 4th block entrance park. Road is submerged.|WATER|HIGH|NEW|DEP-WAT|Water Supply & Sewerage Board|4th Block Park, Koramangala|2026-10-08T09:19:45.6868925|2026-10-08T09:19:45.6868925||24|0|0||Unassigned
+CMP-1009|Meera Sen|9765432109|USR-02|Dangerous Pothole near Metro Pillar 142 on Airport Road|Large crater pothole close to pillar 142. Two-wheelers falling down.|ROADS|HIGH|NEW|DEP-ROA|Public Works & Road Infrastructure|Metro Pillar 142, Old Airport Road|2026-10-08T09:39:45.6868925|2026-10-08T09:39:45.6868925||24|0|0||Unassigned
+CMP-1010|Girish Babu|9844001122|USR-03|Bus Route #201 Frequency Severely Reduced During Morning Peak|Commuters stranded at bus stop as 3 consecutive buses failed to arrive on schedule.|TRANSPORT|LOW|RESOLVED|DEP-TRA|Metropolitan Transit Department|Silk Board Bus Terminal|2026-10-04T10:19:45.6868925|2026-10-06T10:19:45.6868925|2026-10-07T10:19:45.6868925|72|0|4|BMTC added 2 supplementary feeder trips starting 8:30 AM.|Divisional Traffic Inspector
+CMP-1011|Arun Mathew|9448123456|USR-02|Sewage Backflow in Residential Basements After Rain|Underground drainage line blocked causing dirty sewage water to seep back into apartment basement parking.|WATER|HIGH|IN_PROGRESS|DEP-WAT|Water Supply & Sewerage Board|Silver Springs Enclave, Bellandur|2026-10-07T20:19:45.6868925|2026-10-08T06:19:45.6868925||24|1|0||Drainage Suction Team #3
+CMP-1012|Sneha Roy|9341234567|USR-03|Public Grievance Portal Mobile OTP Not Received|Citizens unable to submit online service requests due to SMS gateway timeout error code 504.|IT_SERVICES|MEDIUM|RESOLVED|DEP-ITS|Digital Governance & IT Operations|Online Portal System|2026-10-06T10:19:45.6868925|2026-10-07T04:19:45.6868925|2026-10-07T12:19:45.6868925|48|0|5|SMS gateway carrier redundancy restored. Latency back to normal 2.1s.|DevOps Team
+CMP-1013|Farhan Akhtar|9112233445|USR-02|Low Voltage Fluctuation Damaging Home Appliances|Voltage dropping below 160V repeatedly every evening. Refrigerator and AC compressors failing.|ELECTRICITY|HIGH|PENDING|DEP-ELE|State Power & Electricity Board|Sector 3, BTM Layout 2nd Stage|2026-10-07T18:19:45.6868925|2026-10-08T02:19:45.6868925||24|0|0||Grid Maintenance Sub-station
+CMP-1014|Preeti Kulkarni|9223344556|USR-03|Dead Tree Branch Hanging Dangerously Over Electric Cables|Heavy gust broke eucalyptus bough, resting directly across 11kV overhead wire above sidewalk.|ELECTRICITY|CRITICAL|IN_PROGRESS|DEP-ELE|State Power & Electricity Board|15th Main Road, Rajajinagar|2026-10-08T07:19:45.6868925|2026-10-08T09:19:45.6868925||12|1|0||Emergency Tree Clearing Crew
+CMP-1015|Harish Gowda|9334455667|USR-02|Illegal Debris Dumping in Open Stormwater Drain|Construction contractors dumping concrete debris into primary stormwater canal, choking flow.|SANITATION|MEDIUM|NEW|DEP-SAN|Solid Waste & Sanitation Wing|Varthur Lake Channel Road|2026-10-08T02:19:45.6868925|2026-10-08T02:19:45.6868925||48|0|0||Unassigned
+[HISTORY]
+HIST-INIT-CMP-1001|CMP-1001|2026-10-08T05:19:45.6868925|Registered|Priya Venkatesh|Complaint filed in category: Water Supply
+HIST-PROG-CMP-1001|CMP-1001|2026-10-08T08:19:45.6868925|Status Updated to In Progress|Dispatch Officer|Assigned to: Suresh (Technician)
+HIST-INIT-CMP-1002|CMP-1002|2026-10-08T08:19:45.6868925|Registered|Rajesh Kumar|Complaint filed in category: Electricity & Power
+HIST-INIT-CMP-1003|CMP-1003|2026-10-07T14:19:45.6868925|Registered|Ananya Hegde|Complaint filed in category: Roads & Infrastructure
+HIST-INIT-CMP-1004|CMP-1004|2026-10-05T10:19:45.6868925|Registered|Karthik Sundaram|Complaint filed in category: Sanitation & Waste
+HIST-PROG-CMP-1004|CMP-1004|2026-10-07T10:19:45.6868925|Status Updated to Resolved|Dispatch Officer|Assigned to: Kavita (Supervisor)
+HIST-RES-CMP-1004|CMP-1004|2026-10-07T22:19:45.6868925|Resolved|Kavita (Supervisor)|Resolution completed. Citizen rating: 5 stars
+HIST-INIT-CMP-1005|CMP-1005|2026-10-07T10:19:45.6868925|Registered|Sunil Deshmukh|Complaint filed in category: Billing & Finance
+HIST-PROG-CMP-1005|CMP-1005|2026-10-08T04:19:45.6868925|Status Updated to In Progress|Dispatch Officer|Assigned to: Accounts Desk 2
+HIST-INIT-CMP-1006|CMP-1006|2026-10-07T16:19:45.6868925|Registered|Deepa Nambiar|Complaint filed in category: Electricity & Power
+HIST-INIT-CMP-1007|CMP-1007|2026-10-06T22:19:45.6868925|Registered|Manoj Tiwari|Complaint filed in category: Roads & Infrastructure
+HIST-PROG-CMP-1007|CMP-1007|2026-10-08T09:19:45.6868925|Status Updated to Escalated|Dispatch Officer|Assigned to: Chief Road Engineer
+HIST-INIT-CMP-1008|CMP-1008|2026-10-08T09:19:45.6868925|Registered|Vikram Rathore|Complaint filed in category: Water Supply
+HIST-INIT-CMP-1009|CMP-1009|2026-10-08T09:39:45.6868925|Registered|Meera Sen|Complaint filed in category: Roads & Infrastructure
+HIST-INIT-CMP-1010|CMP-1010|2026-10-04T10:19:45.6868925|Registered|Girish Babu|Complaint filed in category: Public Transport
+HIST-PROG-CMP-1010|CMP-1010|2026-10-06T10:19:45.6868925|Status Updated to Resolved|Dispatch Officer|Assigned to: Divisional Traffic Inspector
+HIST-RES-CMP-1010|CMP-1010|2026-10-07T10:19:45.6868925|Resolved|Divisional Traffic Inspector|Resolution completed. Citizen rating: 4 stars
+HIST-INIT-CMP-1011|CMP-1011|2026-10-07T20:19:45.6868925|Registered|Arun Mathew|Complaint filed in category: Water Supply
+HIST-PROG-CMP-1011|CMP-1011|2026-10-08T06:19:45.6868925|Status Updated to In Progress|Dispatch Officer|Assigned to: Drainage Suction Team #3
+HIST-INIT-CMP-1012|CMP-1012|2026-10-06T10:19:45.6868925|Registered|Sneha Roy|Complaint filed in category: IT & Digital Services
+HIST-PROG-CMP-1012|CMP-1012|2026-10-07T04:19:45.6868925|Status Updated to Resolved|Dispatch Officer|Assigned to: DevOps Team
+HIST-RES-CMP-1012|CMP-1012|2026-10-07T12:19:45.6868925|Resolved|DevOps Team|Resolution completed. Citizen rating: 5 stars
+HIST-INIT-CMP-1013|CMP-1013|2026-10-07T18:19:45.6868925|Registered|Farhan Akhtar|Complaint filed in category: Electricity & Power
+HIST-INIT-CMP-1014|CMP-1014|2026-10-08T07:19:45.6868925|Registered|Preeti Kulkarni|Complaint filed in category: Electricity & Power
+HIST-PROG-CMP-1014|CMP-1014|2026-10-08T09:19:45.6868925|Status Updated to In Progress|Dispatch Officer|Assigned to: Emergency Tree Clearing Crew
+HIST-INIT-CMP-1015|CMP-1015|2026-10-08T02:19:45.6868925|Registered|Harish Gowda|Complaint filed in category: Sanitation & Waste

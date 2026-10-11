@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "scenario": "You are building a live network packet intrusion detection system scanning incoming packets against 1,000 malware signatures simultaneously in real-time.",
+    "question": "Which algorithmic paradigm and data structure should you select for single-pass stream processing?",
+    "options": [
+      "Aho-Corasick Automaton with BFS failure links",
+      "KMP repeated sequentially 1,000 times per packet",
+      "Held-Karp Bitmask Dynamic Programming",
+      "Wagner-Fischer Matrix Distance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aho-Corasick constructs a Trie with failure transitions in O(m * Sigma), enabling linear single-pass streaming across text in O(n + z) time regardless of the number of patterns."
+  },
+  {
+    "id": 2,
+    "scenario": "A computational biologist needs to detect conserved local motifs between two divergent DNA sequences, discarding non-homologous flanking regions.",
+    "question": "Which algorithm is mathematically designed for optimal local sequence alignment?",
+    "options": [
+      "Smith-Waterman Algorithm with recurrence clamped at zero",
+      "Needleman-Wunsch Global Alignment",
+      "Rabin-Karp Rolling Hash",
+      "Graham's List Scheduling Heuristic"
+    ],
+    "correctIndex": 0,
+    "explanation": "Smith-Waterman clamps negative cell values to 0 (max(0, ...)), allowing alignment traceback to begin from the highest scoring cell anywhere in the matrix and terminate when 0 is reached."
+  },
+  {
+    "id": 3,
+    "scenario": "You need to sort all suffixes of a 100,000-character genome text to enable fast O(m log n) substring lookups.",
+    "question": "Which algorithm constructs the suffix array in O(n log² n) or O(n) without building full tree nodes?",
+    "options": [
+      "Prefix-Doubling Suffix Array (Manber-Myers) / SA-IS",
+      "Dijkstra's Shortest Path",
+      "Edmonds-Karp Max Flow",
+      "Fermat Probabilistic Primality Test"
+    ],
+    "correctIndex": 0,
+    "explanation": "Prefix-doubling sorts suffixes by 2^k length prefixes iteratively in O(n log² n), consuming only O(n) memory without the 20x memory overhead of pointer-heavy suffix trees."
+  }
+]

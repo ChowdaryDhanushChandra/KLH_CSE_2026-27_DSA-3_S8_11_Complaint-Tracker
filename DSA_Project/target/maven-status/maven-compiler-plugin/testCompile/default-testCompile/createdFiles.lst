@@ -1,0 +1,13 @@
+com\texthack\module3\TreeDPTest.class
+com\texthack\module2\SuffixStructuresTest.class
+com\texthack\module2_strings\Module2StringsTest.class
+com\texthack\module2\AhoCorasickTest.class
+com\texthack\module3\EditDistanceTest.class
+com\texthack\datastructures\ManualDataStructuresTest.class
+com\texthack\module3\SequenceAlignmentTest.class
+com\texthack\core\ds\CoreDsTest.class
+com\texthack\module1\Module1ServicesTest.class
+com\texthack\module2\StringMatchingTest.class
+com\texthack\module3\BitmaskDPTest.class
+com\texthack\module3\IntervalDPTest.class
+com\texthack\graph\GraphAlgorithmsTest.class

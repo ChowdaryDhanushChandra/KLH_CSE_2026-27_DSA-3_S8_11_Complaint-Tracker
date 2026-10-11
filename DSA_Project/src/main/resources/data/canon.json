@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "Exact String Matching (KMP & Rabin-Karp)",
+    "paradigm": "Finite Automata & Rolling Hashes",
+    "clrs": "Chapter 32 (String Matching, pp. 985-1012)",
+    "kleinbergTardos": "Chapter 13.5 (Randomized String Matching)",
+    "erickson": "Chapter 4 (Strings & Finite Automata)"
+  },
+  {
+    "topic": "Multi-Pattern Search (Aho-Corasick)",
+    "paradigm": "Trie & Deterministic Automata",
+    "clrs": "Chapter 32.3 (String-matching automata)",
+    "kleinbergTardos": "Chapter 13.5 (Automata & Hashing)",
+    "erickson": "Chapter 4.3 (Aho-Corasick Keyword Trees)"
+  },
+  {
+    "topic": "Suffix Arrays & Kasai LCP",
+    "paradigm": "Suffix Indexing & Inverted Ranks",
+    "clrs": "Chapter 32 (Problem 32-1: Suffix Trees)",
+    "kleinbergTardos": "Chapter 6 (Sequence Indexing)",
+    "erickson": "Chapter 4.5 (Suffix Trees and Suffix Arrays)"
+  },
+  {
+    "topic": "Sequence Alignment (Wagner-Fischer & Smith-Waterman)",
+    "paradigm": "Dynamic Programming",
+    "clrs": "Chapter 14 / 15 (Dynamic Programming)",
+    "kleinbergTardos": "Chapter 6.6 (Sequence Alignment)",
+    "erickson": "Chapter 3 (Dynamic Programming: Edit Distance)"
+  },
+  {
+    "topic": "Network Flow & Reductions (Edmonds-Karp & Dinic)",
+    "paradigm": "Augmenting Paths & Blocking Flows",
+    "clrs": "Chapter 24 (Maximum Flow, pp. 708-761)",
+    "kleinbergTardos": "Chapter 7 (Network Flow & Applications)",
+    "erickson": "Chapter 10-11 (Maximum Flows & Minimum Cuts)"
+  }
+]

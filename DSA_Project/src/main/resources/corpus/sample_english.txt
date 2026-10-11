@@ -1,0 +1,7 @@
+TextHack: Advanced Algorithm Analytics and Corpus Exploration
+
+Computer science advances through the synergy of efficient data structures and algorithmic paradigms. In string algorithms, the Knuth-Morris-Pratt (KMP) method preprocesses the pattern into a Longest Proper Prefix that is also a Suffix (LPS) array, ensuring linear-time O(n + m) searching without backtracking. Similarly, the Z-algorithm defines explicit matching boxes [L, R] to achieve identical linear performance. When dealing with multiple simultaneous patterns, the Aho-Corasick automaton generalizes prefix trees with failure and dictionary links.
+
+Dynamic programming addresses optimization problems featuring optimal substructure and overlapping subproblems. The Wagner-Fischer algorithm solves the Levenshtein edit distance through a two-dimensional recurrence matrix, recording insertions, deletions, and substitutions. In bioinformatics, Needleman-Wunsch provides global sequence alignment, whereas Smith-Waterman discovers optimal local alignments by discarding negative scores.
+
+Network flow algorithms, particularly Edmonds-Karp implementing the Ford-Fulkerson method via breadth-first search, compute maximum capacity flow in O(V E^2) time. In project management, the Critical Path Method (CPM) evaluates task dependencies on a Directed Acyclic Graph (DAG) to determine project duration, slack time, and bottlenecks.
